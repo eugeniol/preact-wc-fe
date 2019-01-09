@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
     "pretty": "prettier --write src/*.js src/__tests__/*.js",
-    "lint": "eslint src --fix"
+    "lint": "eslint src --fix",
+    "precommit": "lint-staged"
   },
   "keywords": [],
   "author": "",
