@@ -1,6 +1,6 @@
 {
-  "extends": ["eslint:recommended", "prettier"],
-  "plugins": ["react", "prettier"],
+  "extends": ["eslint:recommended", "prettier", "plugin:jest/recommended"],
+  "plugins": ["react", "prettier", "jest"],
   "env": {
     "browser": true,
     "commonjs": true,
